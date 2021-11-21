@@ -46,6 +46,8 @@ main()
       left_icon="#S";;
     window)
       left_icon="#W";;
+    whoami)
+      left_icon="$(whoami)@${HOSTNAME}";;
     *)
       left_icon=$show_left_icon;;
   esac
